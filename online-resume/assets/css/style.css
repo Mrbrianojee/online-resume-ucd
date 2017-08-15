@@ -1,0 +1,46 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Exo|Roboto');
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important; 
+}
+
+.row {
+    padding-right: 0 !important;
+    padding-left: 0 !important; 
+}
+
+#navigation{
+    color: #ffffff;
+}
+
+ #navigation .logo{
+      background: url("../images/rosie-coder.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 360px;
+      /*transition: all .5s ease-in-out;*/
+      /*-moz-transition: all .5s ease-in-out;*/
+      /*-webkit-transition: all .5s ease-in-out;*/
+}
+
+
+.full-name{
+  font-family: Exo, sans-serif;
+  font-weight: 100; 
+    
+}
+
+
+ #navigation .name  {
+      padding: 17px 40px 18px 40px;
+      background: rgba(0, 0, 0, 0.1);
+      min-height: 120px;
+      max-height: 120px;
+      overflow: hidden;
+      text-align: center; 
+     
+ }
+ 

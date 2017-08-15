@@ -1,46 +1,349 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Exo|Roboto');
+@import url("https://fonts.googleapis.com/css?family=Exo:100,200,300,400,400i,500,600,700,800,900|Roboto:100,200,300,400,400i,600,700,800");
 
-.nopadding {
-  padding: 0 !important;
-  margin: 0 !important; 
+
+
+initial {
+  margin: 0;
+  padding: 0;
 }
+
+/*Text*/
+
+body {
+  font-family: Roboto;
+  /*color: #ffffff*/
+}
+
+.heading-1 {
+  font-family: "Exo", sans-serif;
+  font-weight: 100 !important;
+  font-size: 46px;
+}
+
+.heading-2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200 !important;
+  font-size: 28px;
+}
+
+/*Box Model*/
+
+/* extend the default bootstrap class*/
 
 .row {
-    padding-right: 0 !important;
-    padding-left: 0 !important; 
-}
-
-#navigation{
-    color: #ffffff;
-}
-
- #navigation .logo{
-      background: url("../images/rosie-coder.jpg");
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      min-height: 360px;
-      /*transition: all .5s ease-in-out;*/
-      /*-moz-transition: all .5s ease-in-out;*/
-      /*-webkit-transition: all .5s ease-in-out;*/
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
 
-.full-name{
-  font-family: Exo, sans-serif;
-  font-weight: 100; 
-    
+/*colors*/
+
+#name,
+#title {
+  color: #ffffff;
+}
+
+#name {
+  background-color: #676767;
+  padding: 18px 0 18px 100px;
+  min-height: 120px;
+  max-height: 120px;
+  overflow: hidden;
+}
+
+#title {
+  background-color: #525252;
+  padding: 22px 0 18px 100px;
+  min-height: 120px;
+  max-height: 120px;
 }
 
 
- #navigation .name  {
-      padding: 17px 40px 18px 40px;
-      background: rgba(0, 0, 0, 0.1);
-      min-height: 120px;
-      max-height: 120px;
-      overflow: hidden;
-      text-align: center; 
-     
- }
- 
+
+/*heading*/
+
+#heading .logo {
+  background: url("../images/rosie-coder.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+
+#heading .cv-pdf {
+  background-color: #525252;
+  color: #ffffff;
+  min-height: 120px;
+  max-height: 120px;
+  text-align: center;
+  font-size: 24px;
+  padding: 0;
+}
+
+
+#heading .cv-pdf a {
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#heading .cv-pdf a i {
+  padding-top: 34px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+
+/*hover.css*/
+
+.hvr-sweep-to-bottom:before{
+  background: rgba(0, 0, 0, 0.2);
+  height: 120px;
+}
+
+
+/*heading menu*/
+
+.menuitem {
+  min-height: 120px;
+  text-align: center;
+  padding: 0;
+}
+
+#heading .menuitem a {
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#heading .menuitem a i {
+  padding-top: 19px;
+  display: block;
+}
+
+#heading .menuitem a i:before {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 30px;
+  margin: 0;
+}
+
+#heading .menuitem a span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Navigation */
+
+.ui-menu-color01 {
+  background-color: #1abc9c !important;
+}
+
+.ui-menu-color02 {
+  background-color: #3498db !important;
+}
+
+.ui-menu-color03 {
+  background-color: #9b59b6 !important;
+}
+
+.ui-menu-color04 {
+  background-color: #e67e22 !important;
+}
+
+.ui-menu-color05 {
+  background-color: #e74c3c !important;
+}
+
+.ui-menu-color06 {
+  background-color: #d9a81d !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fonts */
+
+/*@import url('https://fonts.googleapis.com/css?family=Exo|Roboto');*/
+
+/*body {*/
+
+/*    font-family: Roboto;*/
+
+/*}*/
+
+/*.nopadding {*/
+
+/*    padding: 0 !important;*/
+
+/*    margin: 0 !important;*/
+
+/*}*/
+
+/*.row {*/
+
+/*    padding-right: 0 !important;*/
+
+/*    padding-left: 0 !important;*/
+
+/*}*/
+
+/*#navigation {*/
+
+/*color: #ffffff;*/
+
+/*}*/
+
+/*#navigation .logo {*/
+
+/*    background: url("../images/rosie-coder.jpg");*/
+
+/*    background-position: center center;*/
+
+/*    background-repeat: no-repeat;*/
+
+/*    background-size: cover;*/
+
+/*    min-height: 360px;*/
+
+/*transition: all .5s ease-in-out;*/
+
+/*-moz-transition: all .5s ease-in-out;*/
+
+/*-webkit-transition: all .5s ease-in-out;*/
+
+/*}*/
+
+/*.full-name {*/
+
+/*    font-family: Exo, sans-serif;*/
+
+/*    font-weight: 100;*/
+
+/*}*/
+
+/*#navigation .name {*/
+
+/*    padding: 17px 40px 18px 40px;*/
+
+/*    background: rgba(0, 0, 0, 0.1);*/
+
+/*    min-height: 120px;*/
+
+/*    max-height: 120px;*/
+
+/*    overflow: hidden;*/
+
+/*    text-align: center;*/
+
+/*}*/
+
+/*#navigation .name .cv-pdf a {*/
+
+/*    width: 100%;*/
+
+/*    text-decoration: none;*/
+
+/*    color: #ffffff;*/
+
+/*}*/
+
+/*#navigation .name .cv-pdf a i {*/
+
+/*    padding-top: 34px;*/
+
+/*    display: block;*/
+
+/*}*/
+
+/*#navigation .name .cv-pdf a i {*/
+
+/*    width: 100%;*/
+
+/*    opacity: .8;*/
+
+/*    color: #ffffff;*/
+
+/*    font-size: 30px;*/
+
+/*    margin: 0;*/
+
+/*transition: all 0.35s ease-in-out;*/
+
+/*-moz-transition: all 0.35s ease-in-out;*/
+
+/*-webkit-transition: all 0.35s ease-in-out;*/
+
+/*-o-transition: all 0.35s ease-in-out;*/
+
+/*-ms-transition: all 0.35s ease-in-out;*/
+
+/*}*/
+
+/*#navigation .name .cv-pdf a:hover i {*/
+
+/*    opacity: 1;*/
+
+/*}*/
+
+/*#navigation .name h1 {*/
+
+/*    margin: 0;*/
+
+/*    font-size: 45px;*/
+
+/*    line-height: 2.1em;*/
+
+/*}*/
+
+/*#navigation .name .position {*/
+
+/*    color: red;*/
+
+/*}*/
+
+/*#navigation .name .position .position-title {*/
+
+/*    background: rgba(0, 0, 0, 0.2);*/
+
+/*    padding: 23px 40px 34px 40px;*/
+
+/*    min-height: 120px;*/
+
+/*    max-height: 120px;*/
+
+/*}*/

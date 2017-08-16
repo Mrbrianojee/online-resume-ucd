@@ -2,16 +2,26 @@
 
 
 
-initial {
-  margin: 0;
-  padding: 0;
-}
+/*layout*/
 
-/*Text*/
+/*#boxed{*/
+
+/*  max-width: 1000px !important;*/
+
+/*}*/
 
 body {
   font-family: Roboto;
   /*color: #ffffff*/
+}
+
+.boxed {
+  display: block;
+  background-color: #676767;
+  position: relative;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .heading-1 {
@@ -104,7 +114,7 @@ body {
 
 /*hover.css*/
 
-.hvr-sweep-to-bottom:before{
+.hvr-sweep-to-bottom:before {
   background: rgba(0, 0, 0, 0.2);
   height: 120px;
 }
@@ -125,7 +135,7 @@ body {
 }
 
 #heading .menuitem a i {
-  padding-top: 19px;
+  padding-top: 22px;
   display: block;
 }
 
@@ -195,155 +205,3 @@ body {
 
 
 
-
-/* Fonts */
-
-/*@import url('https://fonts.googleapis.com/css?family=Exo|Roboto');*/
-
-/*body {*/
-
-/*    font-family: Roboto;*/
-
-/*}*/
-
-/*.nopadding {*/
-
-/*    padding: 0 !important;*/
-
-/*    margin: 0 !important;*/
-
-/*}*/
-
-/*.row {*/
-
-/*    padding-right: 0 !important;*/
-
-/*    padding-left: 0 !important;*/
-
-/*}*/
-
-/*#navigation {*/
-
-/*color: #ffffff;*/
-
-/*}*/
-
-/*#navigation .logo {*/
-
-/*    background: url("../images/rosie-coder.jpg");*/
-
-/*    background-position: center center;*/
-
-/*    background-repeat: no-repeat;*/
-
-/*    background-size: cover;*/
-
-/*    min-height: 360px;*/
-
-/*transition: all .5s ease-in-out;*/
-
-/*-moz-transition: all .5s ease-in-out;*/
-
-/*-webkit-transition: all .5s ease-in-out;*/
-
-/*}*/
-
-/*.full-name {*/
-
-/*    font-family: Exo, sans-serif;*/
-
-/*    font-weight: 100;*/
-
-/*}*/
-
-/*#navigation .name {*/
-
-/*    padding: 17px 40px 18px 40px;*/
-
-/*    background: rgba(0, 0, 0, 0.1);*/
-
-/*    min-height: 120px;*/
-
-/*    max-height: 120px;*/
-
-/*    overflow: hidden;*/
-
-/*    text-align: center;*/
-
-/*}*/
-
-/*#navigation .name .cv-pdf a {*/
-
-/*    width: 100%;*/
-
-/*    text-decoration: none;*/
-
-/*    color: #ffffff;*/
-
-/*}*/
-
-/*#navigation .name .cv-pdf a i {*/
-
-/*    padding-top: 34px;*/
-
-/*    display: block;*/
-
-/*}*/
-
-/*#navigation .name .cv-pdf a i {*/
-
-/*    width: 100%;*/
-
-/*    opacity: .8;*/
-
-/*    color: #ffffff;*/
-
-/*    font-size: 30px;*/
-
-/*    margin: 0;*/
-
-/*transition: all 0.35s ease-in-out;*/
-
-/*-moz-transition: all 0.35s ease-in-out;*/
-
-/*-webkit-transition: all 0.35s ease-in-out;*/
-
-/*-o-transition: all 0.35s ease-in-out;*/
-
-/*-ms-transition: all 0.35s ease-in-out;*/
-
-/*}*/
-
-/*#navigation .name .cv-pdf a:hover i {*/
-
-/*    opacity: 1;*/
-
-/*}*/
-
-/*#navigation .name h1 {*/
-
-/*    margin: 0;*/
-
-/*    font-size: 45px;*/
-
-/*    line-height: 2.1em;*/
-
-/*}*/
-
-/*#navigation .name .position {*/
-
-/*    color: red;*/
-
-/*}*/
-
-/*#navigation .name .position .position-title {*/
-
-/*    background: rgba(0, 0, 0, 0.2);*/
-
-/*    padding: 23px 40px 34px 40px;*/
-
-/*    min-height: 120px;*/
-
-/*    max-height: 120px;*/
-
-/*}*/

@@ -182,26 +182,12 @@ body {
 }
 
 
+/*Media Queries*/
 
+@media (max-width: 991px) {
 
+  #heading .cv-pdf {
+    display: none;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

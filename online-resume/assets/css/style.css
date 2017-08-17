@@ -1,18 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Exo:100,200,300,400,400i,500,600,700,800,900|Roboto:100,200,300,400,400i,600,700,800");
 
-
-
-/*layout*/
-
-/*#boxed{*/
-
-/*  max-width: 1000px !important;*/
-
-/*}*/
-
 body {
   font-family: Roboto;
   /*color: #ffffff*/
+}
+
+header {
+  margin: 0;
 }
 
 .boxed {
@@ -112,6 +106,7 @@ body {
   margin: 0;
 }
 
+
 /*hover.css*/
 
 .hvr-sweep-to-bottom:before {
@@ -181,6 +176,62 @@ body {
   background-color: #d9a81d !important;
 }
 
+.vertical-divider {
+  height: 40px;
+}
+
+footer {
+  background-color: #525252;
+  color: #bfbfbf;
+  min-height: 240px;
+  max-height: 240px;
+  margin: 0;
+  padding-top: 40px;
+}
+
+footer h5 {
+  font-size: 16px;
+}
+
+
+footer .cv-link a {
+  display: inline-block;
+  padding: 4px 10px 4px 4px;
+  margin: 2px 0 4px 0;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 0 0;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+}
+
+footer .cv-link a i {
+  margin-right: 10px;
+  padding-top: 2px;
+}
+
+footer .cv-link a i:before {
+  font-size: 11px !important;
+  padding-left: 6px;
+}
+
+
+.inline-block {
+  display: inline-block;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.general-sub {
+  font-family: "Exo", sans-serif;
+  font-weight: 300 !important;
+  color: #fafafa;
+}
+
 
 /*Media Queries*/
 
@@ -188,6 +239,31 @@ body {
 
   #heading .cv-pdf {
     display: none;
+  }
+
+}
+
+
+@media (max-width: 991px) {
+
+  #heading .cv-pdf {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .heading-1 {
+    padding: 0;
+    font-size: 38px;
+  }
+
+  .heading-2 {
+    font-size: 22px;
+    padding: 0;
+
   }
 
 }

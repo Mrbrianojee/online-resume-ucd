@@ -2,6 +2,7 @@
 
 body {
   font-family: Roboto;
+  font-weight: 300;
   /*color: #ffffff*/
 }
 
@@ -40,6 +41,57 @@ header {
 }
 
 
+/* No Padding */
+
+.row-no-padding {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.row-no-padding [class*="col-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+/* Flex Layout */
+
+
+.row-flex,
+.row-flex>div[class*='col-'] {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1 1 auto;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.row-flex>div[class*='col-'] div {
+    width: 100%;
+}
+
+/*.flex-row {*/
+/*  display: -webkit-flex;*/
+/*  display: -ms-flexbox;*/
+/*  display: flex;*/
+/*  border: none;*/
+/*  -webkit-flex-wrap: nowrap;*/
+/*  -ms-flex-wrap: nowrap;*/
+/*  flex-wrap: nowrap;*/
+/*}*/
+
+/*.flex-column {*/
+/*  width: 100% !important;*/
+/*}*/
+
+
 /*colors*/
 
 #name,
@@ -66,6 +118,10 @@ header {
 
 /*heading*/
 
+#heading {
+  margin: 0;
+}
+
 #heading .logo {
   background: url("../images/rosie-coder.jpg");
   background-position: center center;
@@ -80,7 +136,7 @@ header {
 
 #heading .cv-pdf {
   background-color: #525252;
-  color: #ffffff;
+  color: #fafafa;
   min-height: 120px;
   max-height: 120px;
   text-align: center;
@@ -180,6 +236,83 @@ header {
   height: 40px;
 }
 
+
+
+
+/*Personal Details*/
+
+#personal-details {
+  padding: 30px;
+  margin: 0;
+}
+
+#personal-details i {
+  font-size: 26px;
+  margin-left: 14px;
+  color: #e67e22;
+}
+
+.personal-summary {
+  font-family: Exo, sans-serif;
+  font-weight: 300;
+}
+
+
+/*Personal Info*/
+
+#personal {
+  padding: 30px;
+  margin: 0;
+}
+
+#personal .box {
+  margin: 0 0 13px 0;
+  display: block;
+  clear: both;
+}
+
+#personal .box .one,
+#personal .box .two {
+  padding: 0 8px 0 0;
+}
+
+#personal .box .one p,
+#personal .box .two p {
+  margin: 0;
+}
+
+#personal .box .one {
+  display: inline-block;
+  width: 30%;
+  margin-right: 21px;
+  z-index: 2;
+  padding-top: 2px;
+  vertical-align: top;
+}
+
+#personal .box .one p {
+  font-weight: 700;
+}
+
+#personal .box .two {
+  display: inline-block;
+  position: relative;
+  width: 60%;
+}
+
+
+/*Background Color Classes */
+
+.bg-color-three-reasons {
+  background-color: #ffffff !important;
+}
+
+.bg-color-personal-info {
+  background-color: #D3D3D3 !important;
+}
+
+
+
 footer {
   background-color: #525252;
   color: #bfbfbf;
@@ -194,27 +327,16 @@ footer h5 {
 }
 
 
-footer .cv-link a {
-  display: inline-block;
-  padding: 4px 10px 4px 4px;
-  margin: 2px 0 4px 0;
-  border-radius: 2px;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 0 0;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
+footer .cv-pdf i {
+  color: #fafafa;
+  text-align: center;
+  font-size: 18px;
+  padding-left: 5px;
+
 }
 
-footer .cv-link a i {
-  margin-right: 10px;
-  padding-top: 2px;
-}
-
-footer .cv-link a i:before {
-  font-size: 11px !important;
-  padding-left: 6px;
+footer .cv-pdf i:hover {
+  color: #e74c3c;
 }
 
 
@@ -244,15 +366,6 @@ footer .cv-link a i:before {
 }
 
 
-@media (max-width: 991px) {
-
-  #heading .cv-pdf {
-    display: none;
-  }
-
-}
-
-
 @media (max-width: 480px) {
 
   .heading-1 {
@@ -265,5 +378,10 @@ footer .cv-link a i:before {
     padding: 0;
 
   }
+
+
+
+}
+
 
 }

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        @import url("https://fonts.googleapis.com/css?family=Exo:100,200,300,400,400i,500,600,700,800,900|Roboto:100,200,300,400,400i,600,700,800");
+
+        @import url("https://fonts.googleapis.com/css?family=Exo|Roboto:400,700");
+       
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Exo', sans-serif;
+            font-weight:300;
+            padding:0;
+            margin:0;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: .5em;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: .8rem;
+            padding:0;
+            margin:0;
+        }
+
+        .container {
+            max-width: 1024px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .timeline-item {
+            padding: 4em 2em 0em 2em;
+            position: relative;
+            color: rgba(0, 0, 0, 0.7);
+            border-left: 2px solid rgba(0, 0, 0, 0.3);
+        }
+
+        .timeline-item p {
+            font-size: 1rem;
+        }
+
+        .timeline-item::before {
+            content: attr(dates);
+            position: absolute;
+            left: 2.5em;
+            font-weight: bold;
+            top: 3em;
+            /*display: block;*/
+            font-family: 'Exo', sans-serif;
+            font-weight: 500;
+            font-size: .785rem;
+            padding:0;
+            margin:0;
+        }
+
+        .timeline-item::after {
+            width: 10px;
+            height: 10px;
+            display: block;
+            top: 2.4em;
+            position: absolute;
+            left: -7px;
+            border-radius: 10px;
+            content: '';
+            border: 2px solid rgba(0, 0, 0, 0.3);
+            background: white;
+        }
+
+        .timeline-item:last-child {
+            -o-border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+            border-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+            border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="timeline-item" dates='02/1998 - 04/2004'>
+            <h3>National College of Art and Design (NCAD).</h3>
+            <p>
+                I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things.
+            </p>
+        </div>
+
+        <div class="timeline-item" dates='04/2004 - 06/2008'>
+            <h3>Fisher and Diaz Funeral Directors</h3>
+            <p>
+                I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things.
+            </p>
+        </div>
+
+        <div class="timeline-item" dates='06/2008 - 06/2011'>
+            <h6>Phantom Design Inc. Dublin.</h6>
+            <p>
+                I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things.
+            </p>
+        </div>
+        <div class="timeline-item" dates='05/2011 - Present'>
+            <h6>Hooli Inc. Silicon Valley</h6>
+            <p>
+                I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things.
+            </p>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/resume.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body class="boxed">
@@ -15,82 +16,115 @@
                 <div class="col-md-4 logo" title="illustration of strong female character in overalls"></div>
             </a>
             <div class="col-md-8">
-                <div class="row">
-                    <div id="name" class="col-md-9 ">
+                <div class="row bg-color-full-name">
+                    <div id="name" class="col-md-8 ">
                         <h1 class="heading-1">Rosie Odenkirk</h1>
-                    </div>
-                    <div class="col-md-3  cv-pdf">
-                        <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download" title="Download CV PDF"></i></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div id="title" class="col-md-12">
                         <h2 class="heading-2">Full Stack Web Developer</h2>
                     </div>
                 </div>
                 <div id="navigation-menu" class="row">
-                    <div class="col-md-12">
-                        <ul id="nav" class="row ">
-                            <li class="col-xs-4 col-sm-4  menuitem ui-menu-color-home">
-                                <a href="default.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>home</span></a>
-                            </li>
-                            <li class="col-xs-4 col-sm-4  menuitem ui-menu-color-resume">
-                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i></i><span>resume</span></a>
-                            </li>
-                            <li class="col-xs-4 col-sm-4  menuitem ui-menu-color-feedback">
-                                <a href="feedback.html" class="hvr-sweep-to-bottom"><i class="fa fa-commenting-o" aria-hidden="true"></i><span>feedback</span></a>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul id="nav" class="clearfix">
+                        <li class="col-xs-6 col-sm-3  menuitem ui-menu-color-home">
+                            <a href="default.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>home</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-3  menuitem ui-menu-color-resume">
+                            <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i></i><span>resume</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-3  menuitem ui-menu-color-feedback">
+                            <a href="feedback.html" class="hvr-sweep-to-bottom"><i class="fa fa-commenting-o" aria-hidden="true"></i><span>feedback</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-3  menuitem ui-menu-color-download">
+                            <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download" title="Download CV PDF"></i><span>download cv</span></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
+        </div>
     </header>
     <section class="container-fluid">
-        <div class="row">
-            <div id="personal-details" class="col-md-8 bg-color-three-reasons">
+        <div class="row row-table">
+            <div id="personal" class="col-xs-12 col-sm-12 col-md-4 bg-color-personal-info section-column">
                 <div class="row">
                     <div class="col-md-12 ">
-                        <h3 class="personal-summary uppercase">About ME</h3>
+                        <h3 class="section-heading uppercase">Personal Info</h3>
                     </div>
                 </div>
-                <div class="vertical-divider"></div>
+                <div class="fullwidth box">
+                    <div class="one">
+                        <p class="uppercase">Name:</p>
+                    </div>
+                    <div class="two">
+                        <p class="">Rosie Odenkirk</p>
+                    </div>
+                </div>
+                <div class="fullwidth box">
+                    <div class="one">
+                        <p class="uppercase">Address:</p>
+                    </div>
+                    <div class="two">
+                        <p class="">17 Riverdale , Catskills, NY USA</p>
+                    </div>
+                </div>
+                <div class="fullwidth box">
+                    <div class="one">
+                        <p class="uppercase">Phone:</p>
+                    </div>
+                    <div class="two">
+                        <p class="">555 785 1037225</p>
+                    </div>
+                </div>
+                <div class="fullwidth box">
+                    <div class="one">
+                        <p class="uppercase">Email:</p>
+                    </div>
+                    <div class="two">
+                        <p class="">rosie@odenkirk.com</p>
+                    </div>
+                </div>
+            </div>
+            <div id="personal-details" class="col-xs-12 col-sm-12 col-md-8 bg-color-three-reasons section-column">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-12 ">
+                        <h3 class="section-heading uppercase">About ME</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
                         <div class="row">
-                            <div class="col-md-3"><i class="font-summary fa fa-question" aria-hidden="true"></i>
-                                <div class="dividewhite1"></div>
+                            <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+                                <i class="font-summary fa fa-question" aria-hidden="true"></i>
                             </div>
-                            <div class="col-md-9">
-                                <h4 class="three-reasons uppercase">What do I do?</h4>
-                                <p class="">
+                            <div class="col-xs-10 col-sm-10">
+                                <h4 class="three-reasons-heading uppercase">What do I do?</h4>
+                                <p class="three-reasons-paragraph">
                                     I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
                         <div class="row">
-                            <div class="col-md-3"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                                <div class="dividewhite1"></div>
+                            <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+                                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
                             </div>
-                            <div class="col-md-9">
-                                <h4 class="three-reasons uppercase">How do I do it?</h4>
-                                <p class="">
+                            <div class="col-xs-10 col-sm-10">
+                                <h4 class="three-reasons-heading uppercase">How do I do it?</h4>
+                                <p class="three-reasons-paragraph">
                                     I follow form as well as function. I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.
                                 </p>
                             </div>
                         </div>
                         <div class="divider-dynamic"></div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-6">
                         <div class="row">
-                            <div class="col-md-3"><i class="fa fa-bolt font-summary" aria-hidden="true"></i>
-                                <div class="dividewhite1"></div>
+                            <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+                                <i class="fa fa-bolt font-summary" aria-hidden="true"></i>
                             </div>
-                            <div class="col-md-9">
-                                <h4 class="three-reasons uppercase">Why Hire Me?</h4>
-                                <p class="">
+                            <div class="col-xs-10 col-sm-10">
+                                <h4 class="three-reasons-heading uppercase">Why Hire Me?</h4>
+                                <p class="three-reasons-paragraph">
                                     I work quickly and effectively in getting things built and working across the stack. I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm aslo a self starter when working solo.
                                 </p>
                             </div>
@@ -99,53 +133,7 @@
                     </div>
                 </div>
             </div>
-            <div id="personal" class="col-md-4 bg-color-personal-info">
-                <div class="row">
-                    <div class="col-md-12 ">
-                        <h3 class="personal-summary uppercase">Personal Info</h3>
-                    </div>
-                </div>
-                <div class="fullwidth box">
-                    <div class="one">
-                        <p class="uppercase">Name:</p>
-                    </div>
-                    <div class="two">
-                        <p class="">Bob Odenkirk</p>
-                    </div>
-                </div>
-                <div class="fullwidth box">
-                    <div class="one">
-                        <p class="uppercase text-nowrap">Birth Date:</p>
-                    </div>
-                    <div class="two">
-                        <p class="">03/12/1980</p>
-                    </div>
-                </div>
-                <div class="fullwidth box">
-                    <div class="one">
-                        <p class="uppercase">Address:</p>
-                    </div>
-                    <div class="two">
-                        <p class="">1234, Direct drive, Daytona Beach, Fl, USA</p>
-                    </div>
-                </div>
-                <div class="fullwidth box">
-                    <div class="one">
-                        <p class="uppercase">Phone:</p>
-                    </div>
-                    <div class="two">
-                        <p class="">1 234 567 89 10</p>
-                    </div>
-                </div>
-                <div class="fullwidth box">
-                    <div class="one">
-                        <p class="uppercase">Email:</p>
-                    </div>
-                    <div class="two">
-                        <p class="">james@anderson.com</p>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </section>
     <footer class="container-fluid">
@@ -167,16 +155,14 @@
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">My Social</h5>
-                <div class="follow">
-                    <ul class="list-inline social">
-                        <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
-                    </ul>
-                </div>
+                <ul class="list-inline social-links">
+                    <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
             </div>
         </div>
     </footer>
